@@ -100,18 +100,18 @@ Increase speed with more threads:
 
 	python scanner.py scan 192.168.1.1 --threads 100
 📄 Example Output (JSON)
-{
-  "target": "192.168.1.1",
-  "open_ports": [
-    {
-      "port": 22,
-      "service": "SSH",
-      "banner": "OpenSSH 8.2p1 Ubuntu"
-    },
-    {
-      "port": 80,
-      "service": "HTTP",
-      "banner": "Apache/2.4.41"
-    }
-  ]
-}
+  {
+    "target": "192.168.1.1",
+    "open_ports": [
+      {
+        "port": 22,
+        "service": "SSH",
+        "banner": "OpenSSH 8.2p1 Ubuntu"
+      },
+      {
+        "port": 80,
+        "service": "HTTP",
+        "banner": "Apache/2.4.41"
+      }
+    ]
+  }
