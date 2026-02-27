@@ -57,4 +57,4 @@ if __name__ == "__main__":
     parser.add_argument("--end", type=int, default=1024, help="End port (default: 1024)")
     args = parser.parse_args()
 
-    scan_ports(args.host, args.start, args.end)
+    open_ports = scan_ports(args.host, args.start, args.end)
